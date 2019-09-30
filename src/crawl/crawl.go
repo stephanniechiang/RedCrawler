@@ -3,8 +3,6 @@ package crawl
 import (
 	"bytes"
 	"fmt"
-	_ "github.com/lib/pq"
-	"golang.org/x/net/html/charset"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -12,7 +10,9 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"golang.org/x/net/html/charset"
 
+	_ "github.com/lib/pq"
 	"github.com/PuerkitoBio/goquery"
 )
 

@@ -8,14 +8,6 @@ import (
 	_ "github.com/lib/pq"
 )
 
-const (
-	host     = "localhost"
-	port     = 5432
-	user     = "stephanniechiang"
-	password = ""
-	dbname   = "redcrawler"
-)
-
 func main() {
 	results := []crawl.Acao{}
 
